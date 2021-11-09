@@ -1,75 +1,3 @@
-<<<<<<< HEAD
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: rgba(245, 245, 245, 0.904);
-}
-.top{
-    display:flex;
-    justify-content: center;
-    margin-left: -34rem;
-    overflow: hidden;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-}
-.container{
-    display: flex;
-     justify-content: center
-}
-.pizza_price{
-    display:flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    border-top: 2px solid rgba(245, 245, 245, 0.863);
-    border-bottom:2px solid rgba(245, 245, 245, 0.863); 
-    border-top-width: 0.1px;
-}
-.Pizza_Text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-h5{
-    font-weight: lighter;
-    font-size: medium;
-}
-.pizza_price td{
-    padding: 16px 123px;
-}
-img{
-    width: 105px;
-height: 104px;
-}
-.End_line{
-    display: flex;
-    justify-content: right;
-    margin-top: 1rem;
-    margin-right: 18rem;
-    gap: 10px;
-    align-items: center;
-
-}
-.Final_money{
-    color: rgba(220, 50, 20, 0.952);
-    font-weight: bold;
-}
-a{
-    text-decoration: none;
-    background-color: red;
-    color: white;
-    transition: 0.4ms;
-    padding: 9px 29px;
-    border-radius: 18px;
-    margin-top: 1.2rem;
-    margin-right: 17rem;
-    margin-bottom: 2rem;
-    float: right;
-=======
 * {
   margin: 0;
   padding: 0;
@@ -139,5 +67,4 @@ body {
   margin-right: 17rem;
   margin-bottom: 2rem;
   float: right;
->>>>>>> 614ff33... Made all the required changes
 }
