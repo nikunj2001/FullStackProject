@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="OrderList.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left">
+                <a href="#">
+                 <img src="../img/logo.png" alt="Logo" width="50px" height="50px">
+                </a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Offer</a></li>
+                    <li><a href="#">Logout</a></li>
+                    <li><a href="#" class="cart" >
+                        <img src="../img/cart.png" alt="Logo" width="30px" height="20px">
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section class="orders">
+        <div class="table-container">
+            <h1 class="heading">All orders</h1>
+            <table class="OrdersList">
+                <thead>
+                    <tr>
+                        <th class="items">Orders</th>
+                        <th class="items">Address</th>
+                        <th class =items>Phone</th>
+                        <th class="items">Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="item"><a class="link" href="./singleOrder.html">12345678910</a></td>
+                        <td class="item">285-C Mehra Colony, Shikohabad</td>
+                        <td class="item">12345678910</td>
+                        <td class="item">09:30 AM</td>
+                    </tr>
+                    <tr>
+                        <td class="item"><a class="link" href="#">12345678910</a></td>
+                        <td class="item">285-C Mehra Colony, Shikohabad</td>
+                        <td class="item">12345678910</td>
+                        <td class="item">09:30 AM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
