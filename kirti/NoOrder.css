@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;margin: 0;box-sizing: border-box;
 }
@@ -104,3 +105,36 @@ h1{
 .NoOrder{
     margin: 15px 0 0 55px;
 }
+=======
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.table-container {
+  width: 80%;
+  padding-top: 12px;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.OrdersList {
+  width: 100%;
+  table-layout: auto;
+  margin-left: 50px;
+  background: white;
+}
+.items {
+  font-family: "Roboto", sans-serif;
+  padding: 4px 0px 4px 2px;
+  text-align: left;
+}
+.NoOrder {
+  margin: 15px 0 0 55px;
+}
+>>>>>>> 614ff33... Made all the required changes

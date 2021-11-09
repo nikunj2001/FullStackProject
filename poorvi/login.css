@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(245, 245, 245, 0.904);
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.box {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+}
+.box h1 {
+  margin-bottom: 50px;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+.box .inputbox {
+  position: relative;
+}
+.box .inputbox input {
+  width: 100%;
+  padding: 10px;
+  font-size: 26px;
+  letter-spacing: 2px;
+  /* margin-bottom:30px; */
+  background: rgb(233, 230, 230);
+  border: 0.1px solid rgba(0, 0, 0, 0.548);
+  border-radius: 8px;
+  outline: none;
+}
+.box .inputbox .first {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.box .inputbox .second {
+  border-top: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  margin-bottom: 25px;
+}
+.box .inputbox input:hover {
+  background: rgba(135, 206, 250, 0.281);
+}
+.box input[type="submit"] {
+  background: transparent;
+  border: none;
+  color: white;
+  background: orangered;
+  padding: 8px 230px;
+  border-radius: 25px;
+  font-size: 26px;
+}
+.box input[type="submit"]:hover {
+  background: rgba(102, 102, 252, 0.986);
+}
+.text {
+  color: orangered;
+  font-size: 25px;
+  padding: 15px 0px;
+  margin-bottom: 15px;
+}
+a {
+  text-decoration: none;
+  color: orangered;
+}

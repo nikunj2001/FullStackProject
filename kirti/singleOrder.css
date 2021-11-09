@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;margin: 0;box-sizing: border-box;
 }
@@ -107,10 +108,47 @@ h1{
     color: rgb(144, 231, 13);
 }
 .status-line{
+=======
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section.status {
+  background: rgba(245, 245, 245, 0.719);
+  min-height: 88vh;
+}
+.status-order {
+  width: 66.66667%;
+  margin-left: 30vh;
+  padding: 60px 0 0;
+}
+.status-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: x-large;
+  font: bold;
+}
+.Address {
+  font-size: small;
+  background: white;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 0 5px 0 5px;
+  color: rgb(144, 231, 13);
+}
+.status-line {
+>>>>>>> 614ff33... Made all the required changes
   font-size: large;
   padding-bottom: 50px;
   list-style-type: none;
 }
+<<<<<<< HEAD
 .status-order ul{
   margin-left: 85px;
 }
@@ -121,6 +159,17 @@ h1{
 }
 .status-order ul li span:after{
   content: '';
+=======
+.status-order ul {
+  margin-left: 85px;
+}
+.status-order ul li span {
+  position: relative;
+  padding-left: 15px;
+}
+.status-order ul li span:after {
+  content: "";
+>>>>>>> 614ff33... Made all the required changes
   position: absolute;
   left: -10px;
   top: 50%;
@@ -131,7 +180,11 @@ h1{
   box-shadow: 0px 2px 2px 8px whitesmoke;
   transform: translateY(-50%);
 }
+<<<<<<< HEAD
 .status-order ul li span:before{
+=======
+.status-order ul li span:before {
+>>>>>>> 614ff33... Made all the required changes
   font-family: "Line Awesome Free";
   font-size: 46px;
   font-weight: 600;
@@ -141,6 +194,7 @@ h1{
   transform: translateY(-50%);
   color: inherit;
 }
+<<<<<<< HEAD
 .status-order ul li:nth-child(1) span:before{
   content: "\f46c";
 }
@@ -162,6 +216,29 @@ h1{
 
 .status-order ul li:before{
   content: '';
+=======
+.status-order ul li:nth-child(1) span:before {
+  content: "\f46c";
+}
+.status-order ul li:nth-child(2) span:before {
+  content: "\f560";
+}
+.status-order ul li:nth-child(3) span:before {
+  content: "\f818";
+}
+.status-order ul li:nth-child(4) span:before {
+  content: "\f0d1";
+}
+.status-order ul li:nth-child(5) span:before {
+  content: "\f582";
+}
+.status-order ul li {
+  position: relative;
+}
+
+.status-order ul li:before {
+  content: "";
+>>>>>>> 614ff33... Made all the required changes
   position: absolute;
   left: -6px;
   top: 0;
@@ -170,6 +247,7 @@ h1{
   height: 100%;
   margin-top: 10px;
 }
+<<<<<<< HEAD
 .status-order ul li:nth-child(5) span:after{
   box-shadow: 0 15px 2px 15px whitesmoke;
 }
@@ -193,3 +271,28 @@ padding-bottom: 0;
 .status-order ul li.current span{
   color:orangered;
 }
+=======
+.status-order ul li:nth-child(5) span:after {
+  box-shadow: 0 15px 2px 15px whitesmoke;
+}
+.status-order ul li:nth-child(5) {
+  padding-bottom: 0;
+}
+/*line*/
+.status-order ul li.step-completed:before {
+  background: grey;
+}
+/*dot*/
+.status-order ul li.step-completed span:after {
+  background: grey;
+}
+.status-order ul li.step-completed span {
+  color: rgb(167, 161, 161);
+}
+.status-order ul li.current span:after {
+  background: orangered;
+}
+.status-order ul li.current span {
+  color: orangered;
+}
+>>>>>>> 614ff33... Made all the required changes

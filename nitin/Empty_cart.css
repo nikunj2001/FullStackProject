@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(245, 245, 245, 0.719);
+}
+.emptycart {
+  border: 5px solid red;
+}
+.emptycart h2 {
+  text-align: center;
+  line-height: 330px;
+  font-weight: 400;
+}
+.emptycart pre {
+  text-align: center;
+  margin-top: -145px;
+  margin-left: -79px;
+}
+.addImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addImage img {
+  height: 412px;
+}
+.addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+}
+.addButton a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 19px;
+}
+.addButton a:hover {
+  background-color: rgba(0, 128, 58, 0.788);
+  transform-origin: left;
+  transition: 0.4s;
+}
+.At_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}

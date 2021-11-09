@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -84,3 +85,96 @@ height: 104px;
 .order_btn a:hover{
     background-color: rgba(0, 110, 255, 0.733);
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(245, 245, 245, 0.904);
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.pizza_price {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  width: min-content;
+  border-bottom: 0.5px solid rgb(128, 128, 128);
+  border-top: 0.5px solid rgb(128, 128, 128);
+  border-top-width: 0.1px;
+}
+.Pizza_Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+h5 {
+  font-weight: lighter;
+  font-size: medium;
+}
+.pizza_price td {
+  padding: 16px 123px;
+}
+.Pizza_Text img {
+  width: 105px;
+  height: 104px;
+}
+.End_line {
+  display: flex;
+  justify-content: right;
+  margin-top: 1rem;
+  margin-right: 17rem;
+  gap: 10px;
+  align-items: center;
+}
+.Final_money {
+  color: rgba(220, 60, 20, 0.952);
+  font-weight: 900;
+}
+
+.ph_number {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin-right: 17rem;
+}
+.Address {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 17rem;
+}
+.input_text {
+  width: 400px;
+  height: 30px;
+}
+.order_btn {
+  float: right;
+  margin-top: 17px;
+  margin-right: 17rem;
+}
+.order_btn a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 7px 21px;
+  border-radius: 17px;
+  transition: 0.5s all ease;
+}
+.order_btn a:hover {
+  background: rgba(184, 58, 13, 0.836);
+}
+input {
+  padding-left: 10px;
+  outline: none;
+}
+>>>>>>> 614ff33... Made all the required changes

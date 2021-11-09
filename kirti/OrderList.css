@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;margin: 0;box-sizing: border-box;
 }
@@ -120,3 +121,53 @@ th{
     text-decoration: none;
     color:orangered;
 }
+=======
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.table-container {
+  width: 80%;
+  padding-top: 12px;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  margin-left: 35px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.OrdersList {
+  width: 100%;
+  table-layout: auto;
+  margin-left: 50px;
+  background: white;
+}
+.items {
+  font-family: "Roboto", sans-serif;
+  padding: 4px 0px 4px 2px;
+  text-align: left;
+}
+table,
+td {
+  border: 1px solid rgb(216, 201, 201);
+  border-collapse: collapse;
+}
+th {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.item {
+  font-family: "Roboto", sans-serif;
+  padding: 5px 50px 5px 8px;
+  font-size: small;
+}
+.link {
+  text-decoration: none;
+  color: orangered;
+}
+>>>>>>> 614ff33... Made all the required changes
