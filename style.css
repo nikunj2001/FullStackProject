@@ -34,6 +34,7 @@
 .hero .right img {
   width: 100%;
 }
+
 .order-btn button {
   background: orangered;
   padding: 10px 25px;
@@ -52,7 +53,7 @@
 }
 .main {
   margin: 0 auto;
-  padding: 8px 20px;
+  padding: 8px 3rem;
 }
 .main h1 {
   font-size: x-large;
@@ -66,6 +67,7 @@
 .pizzas {
   max-width: 1500px;
   margin: 10px auto;
+  justify-content: center;
   padding: 25px;
   display: flex;
   flex-wrap: wrap;
