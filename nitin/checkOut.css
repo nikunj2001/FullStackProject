@@ -6,10 +6,7 @@
 body {
   background-color: rgba(245, 245, 245, 0.904);
 }
-.container {
-  display: flex;
-  justify-content: center;
-}
+
 .pizza_price {
   display: flex;
   overflow: hidden;
@@ -33,7 +30,7 @@ h5 {
 .pizza_price td {
   padding: 16px 123px;
 }
-img {
+.pizza_price img {
   width: 105px;
   height: 104px;
 }
