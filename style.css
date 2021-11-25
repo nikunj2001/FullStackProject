@@ -34,7 +34,6 @@
 .hero .right img {
   width: 100%;
 }
-
 .order-btn button {
   background: orangered;
   padding: 10px 25px;
@@ -53,7 +52,7 @@
 }
 .main {
   margin: 0 auto;
-  padding: 8px 3rem;
+  padding: 8px 20px;
 }
 .main h1 {
   font-size: x-large;
@@ -67,7 +66,6 @@
 .pizzas {
   max-width: 1500px;
   margin: 10px auto;
-  justify-content: center;
   padding: 25px;
   display: flex;
   flex-wrap: wrap;
@@ -153,4 +151,53 @@
   font-size: 100px;
   font-weight: 400;
   font-family: sans-serif;
+}
+@media screen and (max-width: 1500px) {
+  .main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pizzas {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .header-offer h1 {
+    font-size: 80px;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pizzas {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 950px) {
+  .header-offer h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header-offer h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .hero .left h1 {
+    font-size: 45px;
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pizzas {
+    justify-content: center;
+  }
 }
